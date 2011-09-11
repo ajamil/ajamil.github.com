@@ -1,7 +1,7 @@
 <html>
 <head>
-	
-	
+	<title>Asif Jamil</title>
+	<link href='http://fonts.googleapis.com/css?family=Fanwood+Text:400,400italic' rel='stylesheet' type='text/css'>
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
@@ -22,19 +22,40 @@
 	}
 	body, html, a, p{
 		color: #555;
-		font-family: "Consolas", Georgia;
-		line-height:36px;
+		font-family: 'Fanwood Text', serif;	
 	}
-	h1,a{text-decoration:none; color:#000;}
-	a:hover{text-decoration:underline;}
-	li{list-style: none; padding:10px; display:inline;}
+	h1,a{text-decoration:none; color:#0069D6;}
+	h4,ul{margin:0px;}
+	a:hover{text-decoration:underline; color:#000;}
+	li{list-style: disc; padding:10px;}
+	ul li{list-style: square; line-height:12px;}
+	ul.contact li, ul.contact{display:inline; padding-left:0px;}
+	.footer{
+		border-top: 1px solid #ccc;
+		margin-top: 10px;
+		padding-top: 10px;
+		width: 400px;
+	}
 	</style>
 </head>
 
 <body>
-	<h1>Asif Jamil</h1>
-	<h3><i>Front-end Developer and Co-founder at <a href="http://www.beagleapp.com">Beagle</a> <br> Neuroscience Student at King's College</i></h3>
-	<li><a href="mailto:asif@asif.cc">Email Me</a>
-	<li><a href="http://www.twitter.com/asifjamil">Follow Me</a>
+	<div id="wrapper">
+		<h1>Asif Jamil</h1>
+		<h3><i>Front-end Developer and Co-founder at <a href="http://www.beagleapp.com">Beagle</a> <br> Neuroscience Student at King's College</i></h3>
+		<div>
+			<h4>Projects</h4>
+			<ul>
+				<li>Beagle: A new way to get things done on campus
+				<li>North American Bird Phenology Program (NABPP) c/o U.S.G.S
+			</ul>
+		</div>
+		<div class="footer">
+			<ul class="contact">
+				<li><a href="mailto:asif@asif.cc">Email Me</a>
+				<li><a href="http://www.twitter.com/asifjamil">Follow Me</a>
+			</ul>
+		</div>
+	</div>
 </body>
 </html>
