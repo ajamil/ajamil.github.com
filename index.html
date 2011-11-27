@@ -6,7 +6,7 @@
 	<meta name="description" content="Asif Jamil: Front-end Developer and Co-founder at Beagle & Neuroscience Student at King's College." />
 	
 	<title>Asif Jamil</title>
-	<link href='http://fonts.googleapis.com/css?family=Fanwood+Text:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Doid+Serif|Doid+Sans|Fanwood+Text:400,400italic' rel='stylesheet' type='text/css'>
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
@@ -22,50 +22,90 @@
 	</script>
 	<style>
 	body{
-		margin:40px;
+		margin:75px;
 		padding:10px;
 	}
+	h1,h2,h3,h4,h5,h6{margin:8px 0;}
 	body, html, a, p{
 		color: #555;
+		background:#F5F5F5;
 		font-family: 'Fanwood Text', serif;	
 	}
+	#left-side, #right-side {width:425px;display:inline-block; margin-top:20px;}
+		#photo{float:left; padding:10px;margin:0 10px;}
+		.photo{width:70px;}
+	#left-side{float:left;margin-right:50px;}
+	.inset{background: url('media/images/inset-horizontal.png') repeat-x; height:4px;}
 	a{text-decoration:none; color:#0069D6;}
-	h4,ul{margin:0px;}
+		h1{font-size:40px;text-shadow: 1px 1px 1px #666;color:#005b79;line-height:42px;}
+		h3{line-height:24px;}
+		h4,ul{margin:0px;}
 	a:hover{text-decoration:underline; color:#000;}
 	li{list-style: disc; padding:10px;}
 	ul li{list-style: square; line-height:18px;}
 	ul.contact li, ul.contact{display:inline; padding-left:0px;}
 	.footer{
-		border-top: 1px solid #ccc;
 		margin-top: 10px;
 		padding-top: 10px;
 		width: 400px;
 	}
+	#right-side{}
+		.twitter{background:url('media/images/twitter.png') no-repeat left center; height:100px; width:350px;}
 	</style>
 </head>
 
 <body>
 	<div id="wrapper">
 		<h1>Asif Jamil</h1>
-		<h3><i>Front-end Developer and Co-founder at <a href="http://www.beagleapp.com">Beagle</a> <br> Neuroscience Student at King's College</i></h3>
-		<div>
-			<h4>Projects</h4>
-			<ul>
-				<li><a href="http://www.beagleapp.com">Beagle</a>: A new way to get things done on campus.
-				<li><a href="http://www.pwrc.usgs.gov/bpp/">North American Bird Phenology Program</a>: Analysis of six million migration observations of North American birds.
-			</ul>
-			<h4>Research</h4>
-			<ul>
-				<li>[<a href="media/docs/biosciencedayposter.pdf">Poster</a>] 2011 University of Maryland Bioscience Day: Hearing in the Praying Mantis
-				<li>[<a href="media/docs/SICBposter.pdf">Poster</a>] 2011 Society of Integrative and Comparative Biology (SICB): 3D Reconstruction of Tracheal Systems in One-eared and Two-eared Praying Mantises 
+		<div class="inset" style="width:900px;"></div>
+			<h3><i>Developer and Co-founder at <a href="http://www.beagleapp.com">Beagle</a> 
+				<br> Developer at <a href="http://www.gosquared.com">GoSquared</a>
+				<br> Neuroscience Student at King's College London</i>
+			</h3>
+		<div id="left-side">
+			<div>
+				<h4>Projects</h4>
+				<ul>
+					<li><a href="http://www.beagleapp.com">Beagle</a>: A new way to get things done on campus.
+					<li><a href="http://www.pwrc.usgs.gov/bpp/">North American Bird Phenology Program</a>: Analysis of six million migration observations of North American birds.
+				</ul>
+				<h4>Research</h4>
+				<ul>
+					<li>[<a href="media/docs/biosciencedayposter.pdf">Poster</a>] 2011 University of Maryland Bioscience Day: Hearing in the Praying Mantis
+					<li>[<a href="media/docs/SICBposter.pdf">Poster</a>] 2011 Society of Integrative and Comparative Biology (SICB): 3D Reconstruction of Tracheal Systems in One-eared and Two-eared Praying Mantises
+				</ul>
+				<h4>Interests</h4>
+				<ul>
+					<li>Drinking <i>Pakistani Chai</i>
+					<li>Reading and learning about programming (with a focus on Javascript/NodeJS)
+					<li>Watching Manchester City and Barcelona play amazing football (or <i>soccer</i>, depending on which side of the pond you live on)
+				</ul>
+			</div>
+
+			<div class="footer">
+				<div class="inset" style="width:400px;margin-bottom:10px"></div>
+				<ul class="contact">
+					<li><a href="/media/docs/resume.pdf">Resume</a>
+					<li><a href="mailto:asif@asif.cc">Email Me</a>
+					<li><a href="http://www.twitter.com/asifjamil">Follow Me @asifjamil</a>
+				</ul>
+			</div>
 		</div>
-		<div class="footer">
-			<ul class="contact">
-				<li><a href="/media/docs/resume.pdf">Resume</a>
-				<li><a href="mailto:asif@asif.cc">Email Me</a>
-				<li><a href="http://www.twitter.com/asifjamil">Follow Me @asifjamil</a>
-			</ul>
+		<div id="right-side">
+			<h4>Tweets</h4>
+			<div class="twitter">
+				<ul class="tweets">
+					<ul id="twitter_update_list">
+					<li>Loading Tweets..</li>
+					</ul>
+					<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+					<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/asifjamil.json?callback=twitterCallback2&count=5"></script>
+					
+				</ul>
+			</div>
 		</div>
 	</div>
 </body>
+
+
 </html>
