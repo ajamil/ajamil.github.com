@@ -37,7 +37,7 @@
 	#left-side{float:left;margin-right:50px;}
 	.inset{background: url('media/images/inset-horizontal.png') repeat-x; height:4px;}
 	a{text-decoration:none; color:#0069D6;}
-		h1{font-size:40px;/*text-shadow: 1px 1px 1px #666;*/color:#005b79;line-height:42px;}
+		h1{font-size:32px;padding-top:10px;/*text-shadow: 1px 1px 1px #666;*/color:#005b79;line-height:30px;}
 		h3{line-height:24px;}
 		h4,ul{margin:0px;}
 	a:hover{text-decoration:underline; color:#000;}
@@ -49,19 +49,23 @@
 		padding-top: 10px;
 		width: 400px;
 	}
+	.profile{
+		float:left;
+		margin-right:10px;
+	}
 	#right-side{}
-		.twitter{background:url('media/images/twitter.png') no-repeat left center; height:100px; width:350px;}
+		.twitter{background:url('media/images/twitter.png') no-repeat left center; width:350px;}
 	</style>
 </head>
 
 <body>
 	<div id="wrapper">
+		<img src="media/images/asif-jamil.png" class="profile">
 		<h1>Asif Jamil</h1>
 		<div class="inset" style="width:900px;"></div>
-			<h3><i>Developer and Co-founder at <a href="http://www.beagleapp.com">Beagle</a> 
-				<br> Developer at <a href="http://www.gosquared.com">GoSquared</a>
-				<br> Neuroscience Student at King's College London</i>
+			<h3><i>Co-founder at <a href="http://www.beagleapp.com">Beagle</a>, Developer at <a href="http://www.gosquared.com">GoSquared</a></i>
 			</h3>
+		<div style="clear:both"></div>
 		<div id="left-side">
 			<div>
 				<h4>Projects</h4>
@@ -82,14 +86,6 @@
 				</ul>
 			</div>
 
-			<div class="footer">
-				<div class="inset" style="width:400px;margin-bottom:10px"></div>
-				<ul class="contact">
-					<li><a href="/media/docs/resume.pdf">Resume</a>
-					<li><a href="mailto:asif@asif.cc">Email Me</a>
-					<li><a href="http://www.twitter.com/asifjamil">Follow Me @asifjamil</a>
-				</ul>
-			</div>
 		</div>
 		<div id="right-side">
 			<h4>Tweets</h4>
@@ -104,6 +100,16 @@
 				</ul>
 			</div>
 		</div>
+		<div style="clear:both"></div>
+		<div class="footer">
+			<div class="inset" style="width:400px;margin-bottom:10px"></div>
+			<ul class="contact">
+				<li><a href="/media/docs/resume.pdf">Resume</a>
+				<li><a href="mailto:asif@asif.cc">Email Me</a>
+				<li><a href="http://www.twitter.com/asifjamil">Follow Me @asifjamil</a>
+			</ul>
+		</div>
+		
 	</div>
 </body>
 <script type="text/javascript">
