@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "ProximaNova-Light";
+  src: local("☺"),
+    url(../fonts/ProximaNova-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Prime Light";
+  src: local("☺"),
+    url(../fonts/Prime-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Prime Regular";
+  src: local("☺"),
+    url(../fonts/Prime-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Socialico";
+  src: local("☺"),
+    url(../fonts/Socialico.otf) format("opentype"),
+    url(../fonts/Socialico.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Signika-Bold";
+  src: local("☺"),
+    url(../fonts/Signika-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Signika-Light";
+  src: local("☺"),
+    url(../fonts/Signika-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Signika-Regular";
+  src: local("☺"),
+    url(../fonts/Signika-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Signika-Semibold";
+  src: local("☺"),
+    url(../fonts/Signika-Semibold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "SignikaNegative-Bold";
+  src: local("☺"),
+    url(../fonts/SignikaNegative-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "SignikaNegative-Light";
+  src: local("☺"),
+    url(../fonts/SignikaNegative-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "SignikaNegative-Regular";
+  src: local("☺"),
+    url(../fonts/SignikaNegative-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "SignikaNegative-Semibold";
+  src: local("☺"),
+    url(../fonts/SignikaNegative-Semibold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham-Book";
+  src: local("☺"),
+    url(../fonts/Gotham-Book.otf) format("opentype");
+}

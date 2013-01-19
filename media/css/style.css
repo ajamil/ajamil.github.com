@@ -1,0 +1,144 @@
+
+.left  { float: left;  }
+.right { float: right; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+}
+
+
+body {
+  margin: 75px;
+  padding: 10px;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 8px 0;
+}
+h4 {
+  color: #2B5073;
+}
+body, html, a, p {
+  background: #E3E1DC;
+  color: #333;
+  font-family: "Georgia", 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+nav {
+  font-family: "Gotham-Book";
+  font-weight: 300;
+  width: 100%;
+  text-shadow: 0 1px white; }
+  nav div {
+    width: 80%;
+    min-width: 600px;
+    padding: 25px;
+    margin: 0 auto;
+    text-align: left; }
+  nav ul {
+    width: 80%;
+    min-width: 600px;
+    padding: 25px;
+    margin: 0 auto;
+    text-align: right; }
+    nav ul li {
+      display: inline;
+      margin-left: 15px; }
+
+.top{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro p{
+  font-size: 90%;
+  padding-top: 10px;
+  line-height: 24px;
+}
+
+#left-side, #right-side {
+  display: inline-block;
+  margin-top: 20px;
+  width: 425px;
+}
+
+#left-side {
+  float: left;
+  margin-right: 50px;
+}
+.inset {
+  background: url('media/images/inset-horizontal.png') repeat-x;
+  height: 4px;
+}
+a {
+  color: #BA3D49;
+  text-decoration: none;
+}
+h1 {
+  color: #2B5073;
+  font-size: 32px;
+  line-height: 30px;
+  padding-top: 10px;
+}
+.name {
+  color: #333;
+  font-size: 32px;
+  line-height: 30px;
+  padding-top: 30px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+h3 {
+  line-height: 24px;
+}
+h4,ul {
+  margin: 0px;
+}
+a:hover {
+  color: #2B5073;
+  text-decoration: none;
+}
+li {
+  list-style: disc;
+  padding: 10px;
+}
+ul li {
+  line-height: inherit;
+  list-style: square;
+}
+ul.contact li, ul.contact {
+  display: inline;
+  padding-left: 0px;
+}
+.footer {
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#right-side {
+}
