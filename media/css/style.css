@@ -49,9 +49,9 @@ body, html, a, p {
 
 
 nav {
-  font-family: "Gotham-Book";
+  font-family: "Georgia";
   font-weight: 300;
-  width: 100%;
+  width: 80%;
   text-shadow: 0 1px white; }
   nav div {
     width: 80%;
@@ -74,10 +74,15 @@ nav {
   text-align: center;
 }
 
+.intro{
+	width: 60%;
+	margin: 0 auto;
+}
 .intro p{
-  font-size: 90%;
+  font-size: 80%;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
   padding-top: 10px;
-  line-height: 24px;
+  line-height: 22px;
 }
 
 #left-side, #right-side {
