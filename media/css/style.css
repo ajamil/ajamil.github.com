@@ -47,31 +47,33 @@ body, html, a, p {
   line-height: 22px;
 }
 
-
+header{
+	width: 60%;
+	margin: 0 auto;
+}
 nav {
   font-family: "Georgia";
   font-weight: 300;
-  width: 80%;
+  width: 60%;
   text-shadow: 0 1px white; }
   nav div {
-    width: 80%;
-    min-width: 600px;
+    width: 60%;
     padding: 25px;
     margin: 0 auto;
     text-align: left; }
   nav ul {
-    width: 80%;
-    min-width: 600px;
+    width: 60%;
     padding: 25px;
     margin: 0 auto;
-    text-align: right; }
+    text-align: left; }
     nav ul li {
       display: inline;
-      margin-left: 15px; }
+      margin-right: 15px; }
 
 .top{
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
+	width: 60%;
 }
 
 .intro{
@@ -95,10 +97,7 @@ nav {
   float: left;
   margin-right: 50px;
 }
-.inset {
-  background: url('media/images/inset-horizontal.png') repeat-x;
-  height: 4px;
-}
+
 a {
   color: #BA3D49;
   text-decoration: none;
@@ -140,9 +139,9 @@ ul.contact li, ul.contact {
   padding-left: 0px;
 }
 .footer {
-  margin-top: 10px;
-  text-align: center;
-  padding-top: 10px;
+	width: 60%;
+  text-align: left;
+	margin: 0 auto;
 }
 
 #right-side {
