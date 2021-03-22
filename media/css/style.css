@@ -81,8 +81,8 @@ nav {
 	margin: 0 auto;
 }
 .intro p, .intro a {
-  font-size: 13px;
-	font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+ font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
   padding-top: 10px;
   line-height: 22px;
 }
@@ -138,7 +138,7 @@ ul.contact li, ul.contact {
 	margin: 0 auto;
 }
 .footer a {
-  font-size: 80%;
+  font-size: 95%;
   color: #BA3D49;
   text-decoration: none;
 }
